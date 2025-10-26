@@ -73,7 +73,7 @@ Combined it should look like so:
 
 # Test Scripts – Does it work?
 
-1. Does the board work? Use the Blink script to tested the Arduino MKR1000's functionality
+1. Does the board work? Use the [Blink](https://github.com/chad-casa/Vespera_IoT/blob/8df0a0b58fe31e11d76ad6d3414e8fec8753c69a/Tests/Blink.ino) script to tested the Arduino MKR1000's functionality
 
 2. Can it connect to WI-FI? Use the SimpleWifi tester Arduino code to validate that the device can connect to the internet over WI-FI 
 
