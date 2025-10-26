@@ -44,8 +44,11 @@ In the case of Project Vespera, we develop our own IoT system where;
 
 # How does it work? 
   
-  # Template View
+  # Architecture
+<img width="4965" height="1214" alt="image" src="https://github.com/user-attachments/assets/d4d1e2ad-15da-4da7-9f24-a722e4e2ef23" />
+
 Written description of the visual
+
 
   # Component Breakdown
 - **Physical Object- Vespera:** Vespera is a light or luminaire comprised of 72 NeoPixel LEDs which can be controlled by MQTT messages with RGB payloads.
