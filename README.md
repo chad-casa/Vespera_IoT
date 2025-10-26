@@ -79,7 +79,7 @@ Combined it should look like so:
 
 3. Can it send MQTT messages?
 
-4. Does the CO2 sensor work? Use ENS16x code to test the sensor takes CO2 readings
+4. Does the CO2 sensor work? Use [ENS16x code](https://github.com/chad-casa/Vespera_IoT/blob/5368505f9161e4627b4a5e9a68e908a2f0ed466e/Tests/ens160basic_std.ino) to test the sensor takes CO2 readings
 <img width="959" height="562" alt="image" src="https://github.com/user-attachments/assets/1e0c6453-26c5-4c25-958d-ce4c45b5d6e4" />
 
 5. Are they recieved by Vespera Luminaire?
