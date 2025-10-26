@@ -83,6 +83,23 @@ Combined it should look like so:
 # Pictures
 
 # Road Map
+**Stages of development**
+1. Zine mindmapping my product thesis
+2. Product component selection
+3. Product component assembly
+4. Functional testing of components using Arduino sketch examples (Blink, WIFININA AP_SimpleWebserver, ScioSense_ENS16X)
+5. Wired up a breadboard and CO2 sensor to evaluate whether my chosen sensor works to monitor ppm
+6. Test the project Luminaire script from Duncan Wilson, CASA
+7. Consolidate ScioSense sketch with Luminaire script
+8. Connect my device To MQTT gateway
+9. Link sensor readings in serial monitor to RGB LED changes
+10. Send RGB chnages to Vespera online tool on topic 6 (my designated channel)
+11. Save historic readings on the vespera light to illustrate 1/hour - 3 Neopixel strips coloured represent 1 hour
+
+**Future Plans**
+1. Add multiple sensors at different heights and positions into the network to ensure accurate readings
+2. Enable Sleep mode to ensure energy efficiency given power intensive nature of Wifi
+3. Create wireless version of product for travel
 
 # Evaluation
 
