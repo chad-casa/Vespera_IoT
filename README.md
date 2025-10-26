@@ -61,6 +61,11 @@ https://cdn-learn.adafruit.com/downloads/pdf/adafruit-ens160-mox-gas-sensor.pdf
 
 Combined it should look like so:
 
+- 5V to VIN (Voltage In)
+- GND to GND (Ground)
+- SCL to SCL (Serial Clock Line)
+- SDA to SDA (Serial Data Line)
+
 <img width="745" height="564" alt="image" src="https://github.com/user-attachments/assets/b134e1c6-66df-411f-84c4-4ab0b125a0aa" />
 
 <img width="959" height="562" alt="image" src="https://github.com/user-attachments/assets/1e0c6453-26c5-4c25-958d-ce4c45b5d6e4" />
