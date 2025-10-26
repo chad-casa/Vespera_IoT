@@ -75,7 +75,7 @@ Combined it should look like so:
 
 1. Does the board work? Use the [Blink](https://github.com/chad-casa/Vespera_IoT/blob/8df0a0b58fe31e11d76ad6d3414e8fec8753c69a/Tests/Blink.ino) script to tested the Arduino MKR1000's functionality
 
-2. Can it connect to WI-FI? Use the SimpleWifi tester Arduino code to validate that the device can connect to the internet over WI-FI 
+2. Can it connect to WI-FI? Use the [SimpleWifi tester](https://github.com/chad-casa/Vespera_IoT/blob/8b2bf5f1b79ee9ebf1dc66fb2b9969085085122d/Tests/SimpleWebServerWiFi-webled-mkr1010.ino) Arduino code to validate that the device can connect to the internet over WI-FI 
 
 3. Can it send MQTT messages?
 
