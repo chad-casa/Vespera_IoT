@@ -5,8 +5,8 @@
 -	Introduction
 -	System Overview
 -	How does it work?
-  o	Template view 
-  o	Component breakdown 
+- Template view 
+- Component breakdown 
 -	Does it work?
 -	Test Scripts
 -	Arduino Code
