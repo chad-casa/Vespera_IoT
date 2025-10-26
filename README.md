@@ -35,12 +35,12 @@ Project Vespera explores developing an IoT system to sense, network and control 
 
 Simply put;
 
-Physical object(s) + sensors (or actuators) + network connectivity = IoT
+**Physical object(s) + sensors (or actuators) + network connectivity = IoT**
 
 # System Overview
 In the case of Project Vespera, we develop our own IoT system where; 
 
-Vespera Luminaire + CO2 sensor (Hailege ENS160) + Arduino MKR1010 Wi-Fi / MQTT = Vespera IoT
+**Vespera Luminaire + CO2 sensor (Hailege ENS160) + Arduino MKR1010 Wi-Fi / MQTT = Vespera IoT**
 
 # How does it work? 
   
