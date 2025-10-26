@@ -17,8 +17,11 @@
 
 # Context – Vespera Zine
 Struggling to focus on class? You might not be the only one! Recognise poor ventilation instantly, with just a glance at Vespera.
+
 Poor ventilation boosts CO2 concentration reducing the effectiveness of respiration. This means reduced focus, participation and information retention. 
+
 For an optimal study climate this winter, don’t sacrifice focus for warmth, know exactly when to ventilate the room with Vespera.
+
 ![20251025_114548](https://github.com/user-attachments/assets/a6d9c6d9-a619-4ef0-9bcb-a3653b7ba65d)
 ![20251025_114632](https://github.com/user-attachments/assets/76e40421-c275-4c8b-96b7-e97c9aaabdd7)
 ![20251025_114642](https://github.com/user-attachments/assets/23a486bb-86ce-4129-8296-8082f53e42e7)
@@ -27,12 +30,16 @@ For an optimal study climate this winter, don’t sacrifice focus for warmth, kn
 
 # Introduction – Project Zine
 Project Vespera explores developing an IoT system to sense, network and control a Luminaire called Vespera. In this project we will use Vespera - a Wi-Fi enabled luminaire controlled by RGB MQTT messages - to develop an IoT system to flag poor classroom ventilation.
+
 “The Internet of Things or IoT is the network of devices such as vehicles and home appliances that contain electronics software sensors actuators and connectivity which allows these things to connect interact and exchange data.” Kevin Ashton.
+
 Simply put;
+
 Physical object(s) + sensors (or actuators) + network connectivity = IoT
 
 # System Overview
 In the case of Project Vespera, we develop our own IoT system where; 
+
 Vespera Luminaire + CO2 sensor (Hailege ENS160) + Arduino MKR1010 Wi-Fi / MQTT = Vespera IoT
 
 # How does it work? 
@@ -41,18 +48,22 @@ Vespera Luminaire + CO2 sensor (Hailege ENS160) + Arduino MKR1010 Wi-Fi / MQTT =
 Written description of the visual
 
   # Component Breakdown
-	Physical Object- Vespera: Vespera is a light or luminaire comprised of 72 NeoPixel LEDs which can be controlled by MQTT messages with RGB payloads.
-	Breadboard
-o	Sensor – ENS160: Hailege ENS160+AHT21 is a CO2 sensor measuring eCO2 PPM
-o	Connectivity enabled microcontroller – Arduino: Arduino MKR1010 is a Wi-Fi enabled micro controller capable of sending MQTT messages.
-	MQTT Broker (mqtt.cetools.org)
-	Web Viewer (https://www.iot.io/projects/lumi/)
+-	Physical Object- Vespera: Vespera is a light or luminaire comprised of 72 NeoPixel LEDs which can be controlled by MQTT messages with RGB payloads.
+-	Breadboard
+-	Sensor – ENS160: Hailege ENS160+AHT21 is a CO2 sensor measuring eCO2 PPM
+-	Connectivity enabled microcontroller – Arduino: Arduino MKR1010 is a Wi-Fi enabled micro controller capable of sending MQTT messages.
+-	MQTT Broker (mqtt.cetools.org)
+-	Web Viewer (https://www.iot.io/projects/lumi/)
 
   # Assembly
 Follow the steps illustrated by the attached ADAFruit literature.
 https://cdn-learn.adafruit.com/downloads/pdf/adafruit-ens160-mox-gas-sensor.pdf
 
 Combined it should look like so:
+
+<img width="745" height="564" alt="image" src="https://github.com/user-attachments/assets/b134e1c6-66df-411f-84c4-4ab0b125a0aa" />
+
+<img width="959" height="562" alt="image" src="https://github.com/user-attachments/assets/1e0c6453-26c5-4c25-958d-ce4c45b5d6e4" />
 
 # Test Scripts – Does it work?
 1.Tested the Arduino MKR1000 Functionality by using the Blink script
