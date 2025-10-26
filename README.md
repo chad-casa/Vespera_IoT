@@ -104,8 +104,9 @@ Combined it should look like so:
 # Assumptions
 - Good WI-FI signal
 - Access to wired power
+- Data privacy is not an important risk
 
-- Why Arduino MKR1010?
+## Why Arduino MKR1010?
 
   
 ## Why MQTT?
@@ -124,7 +125,7 @@ The sensor is working and is selecting RGB values based off of the PPM reading i
 - **Cost of measurement:** Consider appropriate cadence of measurement
 
 # Sources: 
-Base code - Arduino template libraries
-Base code - Duncan Wilson (https://github.com/ucl-casa-ce/casa0014/tree/main/vespera)
-Wiring: https://cdn-learn.adafruit.com/downloads/pdf/adafruit-ens160-mox-gas-sensor.pdf
-How to merge libraries - Claude.AI
+**Base code** - Arduino template libraries
+**Base code** - Duncan Wilson (https://github.com/ucl-casa-ce/casa0014/tree/main/vespera)
+**Wiring** - https://cdn-learn.adafruit.com/downloads/pdf/adafruit-ens160-mox-gas-sensor.pdf
+**How to merge sketches** - Claude.AI
