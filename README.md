@@ -68,13 +68,12 @@ Combined it should look like so:
 
 <img width="745" height="564" alt="image" src="https://github.com/user-attachments/assets/b134e1c6-66df-411f-84c4-4ab0b125a0aa" />
 
-<img width="959" height="562" alt="image" src="https://github.com/user-attachments/assets/1e0c6453-26c5-4c25-958d-ce4c45b5d6e4" />
-
 # Test Scripts – Does it work?
 1.Tested the Arduino MKR1000 Functionality by using the Blink script
 2. Can it connect to Wifi? Used the SimpleWifi tester Arduino code to validate that the hardware works.
 3. Can it send MQTT messages?
-4. Are they recieved by Vespera Luminaire?
+4. Does the CO2 sensor work? <img width="959" height="562" alt="image" src="https://github.com/user-attachments/assets/1e0c6453-26c5-4c25-958d-ce4c45b5d6e4" />
+5. Are they recieved by Vespera Luminaire?
 
 # Arduino Final Code
 
