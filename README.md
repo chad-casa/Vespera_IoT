@@ -33,7 +33,7 @@ Project Vespera explores developing an IoT system to sense, network and control 
 
 “The Internet of Things or IoT is the network of devices such as vehicles and home appliances that contain electronics software sensors actuators and connectivity which allows these things to connect interact and exchange data.” Kevin Ashton.
 
-Simply put;
+Simply put.
 
 **Physical object(s) + sensors (or actuators) + network connectivity = IoT**
 
