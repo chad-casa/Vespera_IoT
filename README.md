@@ -101,26 +101,27 @@ Combined it should look like so:
 2. Enable Sleep mode to ensure energy efficiency given power intensive nature of Wifi
 3. Create wireless version of product for travel
 
+# Assumptions
+- Good WI-FI signal
+- Access to wired power
+
+- Why Arduino MKR1010?
+
+  
+## Why MQTT?
+**Message Queue Telemetry Transport** is a publish and subscribe model protocol where the broker decouples senders and receivers, so they don’t need to know about one another. Benefits for CO2 sensing, small message size and continuous connection. The publish – subscribe model enables the storage of messages which ensures reliability
+Low latency is not necessary due to the low frequency of sensing required. Large flows, energy efficiency is not imperative as the device is designed for indoor use so a wireless power source is not necessary and people in the environment are sedentary and in close proximity to the sensor for prolonged periods. 
+Data transferred is not highly sensitivity so weak security or no default encryption is not a concern.
+
 # Evaluation
-
-CASA project to control a luminaire LED lamp using an IoT sensor.
-Stages of development:
-#1 Idea brainstorm: Co2 sensor to visually display Co2 readings of the room to ensure optimal ventilation during the winter season where windows are often kept shut due to the cold, leading to stale air and tired students with lower attention spans.
-<img width="3022" height="725" alt="image" src="https://github.com/user-attachments/assets/e2807af8-487e-4e6c-a0ee-0f61469e233f" />
-
-
-3. Wired up a breadboard and CO2 sensor to evaluate whether my chosen sensor works to monitor ppm
-4. Connect my device To MQTT gateway
-5. Link sensor readings in serial monitor to RGB LED changes
-6. Send RGB chnages to Vespera online tool on topic 6 (my designated channel)
-7. Save historic readings on the vespera light to illustrate 1/hour
-   
-<img width="745" height="564" alt="image" src="https://github.com/user-attachments/assets/b134e1c6-66df-411f-84c4-4ab0b125a0aa" />
-
-<img width="959" height="562" alt="image" src="https://github.com/user-attachments/assets/1e0c6453-26c5-4c25-958d-ce4c45b5d6e4" />
-
-The sensor is working and is selecting RGB values based off of the PPM reading in the serialoutput. The current bounds are 600 - 1000 - 1500 ppm this seems fairly high as the current average is 40. readings have been tweaked to run every 10 seconds to prevent spam.
+The sensor is working and is selecting RGB values based off of the PPM reading in the serialoutput. The current bounds are 600 - 1000 - 1500 ppm this seems fairly high as the current average is ~400. Readings have been tweaked to run every 10 seconds to prevent spam. In practice readings should be a few times an hour e.g. every 15 minutes.
 <img width="954" height="561" alt="image" src="https://github.com/user-attachments/assets/b6771a0a-9750-4189-b10c-3c15db77a52c" />
+
+“Don’t assume your measurements are valid” – Duncan Wilson
+
+- **Reliability and validity of readings:** Multiple sensors, fine tune sensor positioning in room
+- **Relevance of readings:** Consider relevant thresholds for CO2 colour change
+- **Cost of measurement:** Consider appropriate cadence of measurement
 
 # Sources: 
 Base code - Arduino template libraries
