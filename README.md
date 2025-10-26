@@ -95,7 +95,7 @@ Combined it should look like so:
 3. Product component assembly
 4. Functional testing of components using Arduino sketch examples (Blink, WIFININA AP_SimpleWebserver, ScioSense_ENS16X)
 5. Wired up a breadboard and CO2 sensor to evaluate whether my chosen sensor works to monitor ppm
-6. Test the project Luminaire script from Duncan Wilson, CASA
+6. Test the project [Luminaire script](https://github.com/ucl-casa-ce/casa0014/blob/cc7aed6253ad8d2e7b3fdea0c4e44cc227731e9e/vespera/luminaire_mkr1010_controller/luminaire_mkr1010_controller.ino) from Duncan Wilson, CASA
 7. Consolidate ScioSense sketch with Luminaire script
 8. Connect my device To MQTT gateway
 9. Link sensor readings in serial monitor to RGB LED changes
@@ -132,6 +132,6 @@ The sensor is working and is selecting RGB values based off of the PPM reading i
 
 # Sources: 
 **Base code** - Arduino template libraries
-**Base code** - Duncan Wilson (https://github.com/ucl-casa-ce/casa0014/tree/main/vespera)
+**Base code** - Luminaire controller code by[Duncan Wilson](https://github.com/ucl-casa-ce/casa0014/blob/cc7aed6253ad8d2e7b3fdea0c4e44cc227731e9e/vespera/luminaire_mkr1010_controller/luminaire_mkr1010_controller.ino) (https://github.com/ucl-casa-ce/casa0014/tree/main/vespera)
 **Wiring** - https://cdn-learn.adafruit.com/downloads/pdf/adafruit-ens160-mox-gas-sensor.pdf
 **How to merge sketches** - Claude.AI
