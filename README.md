@@ -160,6 +160,7 @@ The sensor is working and is selecting RGB values based off of the PPM reading i
 - **Reliability and validity of readings:** Multiple sensors, fine tune sensor positioning in room
 - **Relevance of readings:** Consider relevant thresholds for CO2 colour change
 - **Cost of measurement:** Consider appropriate cadence of measurement
+- **Wireless:** Consider how to make the IoT system wireless or low power for greater versatility in use cases
 
 # Sources: 
 + **Base code** - Arduino template libraries* [SPI, WIFININA, PubSubCLient,Arduino_secrets,Utility/wifi_drv,Wire,ScioSense_ENS160] 
