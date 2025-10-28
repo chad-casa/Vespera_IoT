@@ -11,7 +11,7 @@
 - [Assembly](https://github.com/chad-casa/Vespera_IoT/blob/main/README.md#assembly)
 -	[Test Scripts – Does it work?](https://github.com/chad-casa/Vespera_IoT/blob/main/README.md#test-scripts--does-it-work)
 -	[Arduino Code](https://github.com/chad-casa/Vespera_IoT/blob/main/README.md#arduino-code)
--	Evaluation
+-	[Evaluation](https://github.com/chad-casa/Vespera_IoT/blob/main/README.md#evaluation)
 -	[Road Map](https://github.com/chad-casa/Vespera_IoT/blob/main/README.md#road-map)
 -	[Assumptions](https://github.com/chad-casa/Vespera_IoT/blob/main/README.md#assumptions)
 -	[Sources](https://github.com/chad-casa/Vespera_IoT/blob/main/README.md#sources)
@@ -117,7 +117,7 @@ Combined it should look like so:
 
 # Evaluation
 
-# Road Map
+## Road Map
 **Stages of development**
 1. Zine mindmapping my product thesis
 2. Product component selection
@@ -136,7 +136,7 @@ Combined it should look like so:
 2. Enable Sleep mode to ensure energy efficiency given power intensive nature of Wifi
 3. Create wireless version of product for travel
 
-# Assumptions
+## Assumptions
 - Good WI-FI signal
 - Access to wired power
 - Data privacy is not an important risk
@@ -151,8 +151,8 @@ Combined it should look like so:
 Low latency is not necessary due to the low frequency of sensing required. Large flows, energy efficiency is not imperative as the device is designed for indoor use so a wireless power source is not necessary and people in the environment are sedentary and in close proximity to the sensor for prolonged periods. 
 Data transferred is not highly sensitivity so weak security or no default encryption is not a concern.
 
-# Evaluation
-The sensor is working and is selecting RGB values based off of the PPM reading in the serialoutput. The current bounds are 600 - 1000 - 1500 ppm this seems fairly high as the current average is ~400. Readings have been tweaked to run every 10 seconds to prevent spam. In practice readings should be a few times an hour e.g. every 15 minutes.
+## Tweaks and context
+The sensor is working and is selecting RGB values based off of the PPM reading in the serial output. The current bounds were 600 - 1000 - 1500 ppm this seems fairly high as the current average is ~400. Readings have been tweaked to run every 10 seconds to prevent spam. In practice readings should be hourly.
 <img width="954" height="561" alt="image" src="https://github.com/user-attachments/assets/b6771a0a-9750-4189-b10c-3c15db77a52c" />
 
 “Don’t assume your measurements are valid” – Duncan Wilson
