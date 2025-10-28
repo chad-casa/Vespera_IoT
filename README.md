@@ -75,7 +75,7 @@ In the case of Project Vespera, we develop our own IoT system where:
 
 
   # Component Breakdown
-- **Physical Object- Vespera:** Vespera is a light or luminaire comprised of 72 NeoPixel LEDs which can be controlled by MQTT messages with RGB payloads.
+- **Physical Object- Vespera:** [Vespera](https://github.com/ucl-casa-ce/casa0014/tree/cc7aed6253ad8d2e7b3fdea0c4e44cc227731e9e/vespera#vespera) is a light or luminaire created by Duncan Wilson comprised of 72 NeoPixel LEDs which can be controlled by MQTT messages with RGB payloads. 
 -	**Breadboard**
   -	**Sensor – ENS160:** Hailege ENS160+AHT21 is a CO2 sensor measuring eCO2 PPM
   -	**Connectivity enabled microcontroller – Arduino:** Arduino MKR1010 is a Wi-Fi enabled micro controller capable of sending MQTT messages.
