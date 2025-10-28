@@ -107,13 +107,13 @@ Combined it should look like so:
 4. Does the CO2 sensor work? Use [ENS16x code](https://github.com/chad-casa/Vespera_IoT/blob/5368505f9161e4627b4a5e9a68e908a2f0ed466e/Tests/ens160basic_std.ino) to test the sensor takes CO2 readings
 <img width="959" height="562" alt="image" src="https://github.com/user-attachments/assets/1e0c6453-26c5-4c25-958d-ce4c45b5d6e4" />
 
-5. Are they received by Vespera Luminaire? Use [luminaire_mkr1010_controller](https://github.com/ucl-casa-ce/casa0014/blob/cc7aed6253ad8d2e7b3fdea0c4e44cc227731e9e/vespera/luminaire_mkr1010_controller/luminaire_mkr1010_controller.ino) sketch 
+5. Are they received by Vespera Luminaire? Use [luminaire_mkr1010_controller](https://github.com/ucl-casa-ce/casa0014/blob/cc7aed6253ad8d2e7b3fdea0c4e44cc227731e9e/vespera/luminaire_mkr1010_controller/luminaire_mkr1010_controller.ino) sketch and observe the data flows in MQTT explorer and the virtual/physical Luminarie.
 
 # Arduino Code
 1.  Inital merge MQTT Simple, Luminaire and ENS160 sketches using Claude.ai
 2.  System working locally without MQTT Publishing - legacy MQTT File used
 3.  New MQTT file found with new port (1884 instead of 1883)
-4.  To finalise the custom sketch I updated topic to 6, Arduino_Secrets for relevant WI-FI, CO2ToColour ranges to be demo appropriate,Simplified colours used to Green, Orange and Red
+4.  To finalise the custom sketch I updated topic to 6, Arduino_Secrets for relevant WI-FI, CO2ToColour ranges to be demo appropriate, simplified colours used to Green, Orange and Red
 
 # Evaluation
 
@@ -128,8 +128,11 @@ Combined it should look like so:
 7. Consolidate ScioSense sketch with Luminaire script
 8. Connect my device To MQTT gateway
 9. Link sensor readings in serial monitor to RGB LED changes
-10. Send RGB chnages to Vespera online tool on topic 6 (my designated channel)
+10. Send RGB changes to Vespera online tool on topic 6 (my designated channel)
 11. Save historic readings on the vespera light to illustrate 1/hour - 3 Neopixel strips coloured represent 1 hour
+    
+**Functional Demo Output**
+<img width="932" height="530" alt="image" src="https://github.com/user-attachments/assets/25f92f11-6e9c-4a97-bbd3-a7442d25e769" />
 
 **Future Plans**
 1. Add multiple sensors at different heights and positions into the network to ensure accurate readings
