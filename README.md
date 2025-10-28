@@ -151,7 +151,7 @@ Combined it should look like so:
 Low latency is not necessary due to the low frequency of sensing required. Large flows, energy efficiency is not imperative as the device is designed for indoor use so a wireless power source is not necessary and people in the environment are sedentary and in close proximity to the sensor for prolonged periods. 
 Data transferred is not highly sensitivity so weak security or no default encryption is not a concern.
 
-## Tweaks and context
+## Areas of Improvement
 The sensor is working and is selecting RGB values based off of the PPM reading in the serial output. The current bounds were 600 - 1000 - 1500 ppm this seems fairly high as the current average is ~400. Readings have been tweaked to run every 10 seconds to prevent spam. In practice readings should be hourly.
 <img width="954" height="561" alt="image" src="https://github.com/user-attachments/assets/b6771a0a-9750-4189-b10c-3c15db77a52c" />
 
