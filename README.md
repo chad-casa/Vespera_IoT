@@ -49,7 +49,8 @@ In the case of Project Vespera, we develop our own IoT system where:
 # How does it work? 
   
   # Architecture
-<img width="27904" height="7177" alt="Vespera IoT Systems Architecture XL" src="https://github.com/user-attachments/assets/90a2bf39-a7d4-49cf-ba1d-91f852cb4e72" />
+<img width="22830" height="7297" alt="Vespera IoT Systems Architecture XL" src="https://github.com/user-attachments/assets/8f56a3dc-8343-4fb6-87bc-dc447310566a" />
+
 
 
 
