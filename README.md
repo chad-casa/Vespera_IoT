@@ -1,8 +1,8 @@
 # Vespera_IoT
 
 # Repository contents
--	Context – Project Zine
--	Introduction
+-	Context – Vespera Zine
+-	Introduction - Project Vespera
 -	System Overview
 -	How does it work?
 - Template view 
@@ -28,14 +28,16 @@ For an optimal study climate this winter, don’t sacrifice focus for warmth, kn
 ![20251025_114652](https://github.com/user-attachments/assets/a5fe56b1-2f28-4668-b4d9-b1a3afd83401)
 ![20251025_114659](https://github.com/user-attachments/assets/163dd6b6-6092-4de5-8950-824ca8b8d49e)
 
-# Introduction – Project Zine
-Project Vespera explores developing an IoT system to sense, network and control a Luminaire called Vespera. In this project we will use Vespera - a Wi-Fi enabled luminaire controlled by RGB MQTT messages - to develop an IoT system to flag poor classroom ventilation.
+# Introduction – Project Vespera
+Project Vespera explores developing an IoT system to sense, network and control a Luminaire called Vespera. In this project we will use Vespera - a Wi-Fi enabled luminaire controlled by RGB MQTT messages - to develop an IoT system to flag poor classroom ventilation using CO2 ppm as our key indicator.
 
 “The Internet of Things or IoT is the network of devices such as vehicles and home appliances that contain electronics software sensors actuators and connectivity which allows these things to connect interact and exchange data.” Kevin Ashton.
 
 Simply put.
 
-**Physical object(s) + sensors (or actuators) + network connectivity = IoT**
+<p align="center">
+<b>Physical object(s) + sensors (or actuators) + network connectivity = IoT</b>
+</p>
 
 # System Overview
 In the case of Project Vespera, we develop our own IoT system where; 
