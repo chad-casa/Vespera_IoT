@@ -113,7 +113,7 @@ Combined it should look like so:
 1.  Inital merge MQTT Simple, Luminaire and ENS160 sketches using Claude.ai
 2.  System working locally without MQTT Publishing - legacy MQTT File used
 3.  New MQTT file found with new port (1884 instead of 1883)
-4.  Update topic to 6, Arduino_Secrets for relevant WI-FI, CO2ToColour ranges to be demo appropriate,SImplify colours used to Green, Orange and Red
+4.  To finalise the custom sketch I updated topic to 6, Arduino_Secrets for relevant WI-FI, CO2ToColour ranges to be demo appropriate,Simplified colours used to Green, Orange and Red
 
 # Evaluation
 
