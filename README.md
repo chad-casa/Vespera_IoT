@@ -141,7 +141,9 @@ Combined it should look like so:
 - Data privacy is not an important risk
 
 ## Why Arduino MKR1010?
-
++ Wifi connectivity
++ Open source
++ Low cost
   
 ## Why MQTT?
 **Message Queue Telemetry Transport** is a publish and subscribe model protocol where the broker decouples senders and receivers, so they don’t need to know about one another. Benefits for CO2 sensing, small message size and continuous connection. The publish – subscribe model enables the storage of messages which ensures reliability
