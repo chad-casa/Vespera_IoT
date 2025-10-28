@@ -65,7 +65,7 @@ In the case of Project Vespera, we develop our own IoT system where:
 +	Payload: The readings from the sensor are processed by the microcontroller using multiple libraries including ScioSense_ENS160 and utility/wifi_drv. With RGB values linked to CO2 PPM thresholds and corresponding hexadecimal payload values, we can send MQTT messages over Wi-Fi.
 +	WIFI Gateway: CE-Wi-Fi located in One Pool Street
 +	Tilt Controller: Receives the MQTT payload via WIFI and selects which topic the Vespera luminaires is subscribed. The payload is then published to the coded topic e.g. #6 and sent to the MQTT Broker.
-+	QTT Broker: (Mqtt.cetools.org) receives the published payload and if the credentials are correct, it will relay the message to the Vespera Luminare assigning the relevant LED configuration to reflect the CO2 observation.
++	MQTT Broker: (Mqtt.cetools.org) receives the published payload and if the credentials are correct, it will relay the message to the Vespera Luminare assigning the relevant LED configuration to reflect the CO2 observation.
 
 <b>4.	Vespera Light</b>
 +	Physical: Is updated when dialled into the appropriate topic set by the Tilt Controller.
