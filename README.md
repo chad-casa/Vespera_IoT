@@ -33,16 +33,18 @@ Project Vespera explores developing an IoT system to sense, network and control 
 
 “The Internet of Things or IoT is the network of devices such as vehicles and home appliances that contain electronics software sensors actuators and connectivity which allows these things to connect interact and exchange data.” Kevin Ashton.
 
-Simply put.
+Simply put:
 
 <p align="center">
 <b>Physical object(s) + sensors (or actuators) + network connectivity = IoT</b>
 </p>
 
 # System Overview
-In the case of Project Vespera, we develop our own IoT system where; 
+In the case of Project Vespera, we develop our own IoT system where:
 
-**Vespera Luminaire + CO2 sensor (Hailege ENS160) + Arduino MKR1010 Wi-Fi / MQTT = Vespera IoT**
+<p align="center">
+<b>Vespera Luminaire + CO2 sensor (Hailege ENS160) + Arduino MKR1010 Wi-Fi / MQTT = Vespera IoT</b>
+</p>
 
 # How does it work? 
   
