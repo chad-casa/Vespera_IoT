@@ -1,7 +1,7 @@
 # Vespera_IoT
 
 # Repository contents
--	[Context – Vespera Zine](https://github.com/ucl-casa-ce/casa0014/blob/cc7aed6253ad8d2e7b3fdea0c4e44cc227731e9e/vespera/luminaire_mkr1010_controller/luminaire_mkr1010_controller.ino)
+-	[Context – Vespera Zine](https://github.com/chad-casa/Vespera_IoT/blob/main/README.md#context--vespera-zine)
 -	Introduction - Project Vespera
 -	System Overview
 -	How does it work?
