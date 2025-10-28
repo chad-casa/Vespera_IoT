@@ -109,7 +109,7 @@ Combined it should look like so:
 5. Are they received by Vespera Luminaire? Use [luminaire_mkr1010_controller](https://github.com/ucl-casa-ce/casa0014/blob/cc7aed6253ad8d2e7b3fdea0c4e44cc227731e9e/vespera/luminaire_mkr1010_controller/luminaire_mkr1010_controller.ino) sketch 
 
 # Arduino Code
-1.  Merge MQTT Simple, Luminaire and ENS160 sketches using Claude.ai
+1.  Inital merge MQTT Simple, Luminaire and ENS160 sketches using Claude.ai
 2.  System working locally without MQTT Publishing - legacy MQTT File used
 3.  New MQTT file found with new port (1884 instead of 1883)
 4.  Update topic to 6, Arduino_Secrets for relevant WI-FI, CO2ToColour ranges to be demo appropriate,SImplify colours used to Green, Orange and Red
@@ -159,7 +159,8 @@ The sensor is working and is selecting RGB values based off of the PPM reading i
 - **Cost of measurement:** Consider appropriate cadence of measurement
 
 # Sources: 
-**Base code** - Arduino template libraries
-**Base code** - Luminaire controller code by[Duncan Wilson](https://github.com/ucl-casa-ce/casa0014/blob/cc7aed6253ad8d2e7b3fdea0c4e44cc227731e9e/vespera/luminaire_mkr1010_controller/luminaire_mkr1010_controller.ino) (https://github.com/ucl-casa-ce/casa0014/tree/main/vespera)
-**Wiring** - https://cdn-learn.adafruit.com/downloads/pdf/adafruit-ens160-mox-gas-sensor.pdf
-**How to merge sketches** - Claude.AI
++ **Base code** - Arduino template libraries* [SPI, WIFININA, PubSubCLient,Arduino_secrets,Utility/wifi_drv,Wire,ScioSense_ENS160] 
++ **Base code** - Luminaire controller and MQTT Simple code by[Duncan Wilson](https://github.com/ucl-casa-ce/casa0014/blob/cc7aed6253ad8d2e7b3fdea0c4e44cc227731e9e/vespera/luminaire_mkr1010_controller/luminaire_mkr1010_controller.ino) (https://github.com/ucl-casa-ce/casa0014/tree/main/vespera)
++ **Wiring** - https://cdn-learn.adafruit.com/downloads/pdf/adafruit-ens160-mox-gas-sensor.pdf
++ **How to merge sketches** - Claude.AI
++ **CO2 reading to RGB** - Chad Barrett, Arduino Libraries* and Claude.AI
