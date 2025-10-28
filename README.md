@@ -52,8 +52,26 @@ In the case of Project Vespera, we develop our own IoT system where:
 <img width="22830" height="7297" alt="Vespera IoT Systems Architecture XL" src="https://github.com/user-attachments/assets/f94c20a1-6367-41d5-a0e9-b9598b84c498" />
 
 
+## The Vespera IoT system
+<b>1.	Stimulus</b>
+•	CO2: The atmosphere contains CO2, its concentration is measured in parts per million
 
-Written description of the visual
+<b>2.	Data collection system (See Breadboard device below)</b>
++	Sensor: CO2 sensor Adafruit ENS160 MOX (metal oxide) Gas Sensor Detects CO2 concentration in the atmosphere by measuring the change in current caused by the atmosphere making contact with the hot plate on the circuit, this is communicated to the Arduino by I2C (the SDA and SCL wires). By default readings are observed at intervals measured in milliseconds.
++	Microcontroller Unit: The Arduino MKR 1010 microcontroller unit has multiple libraries installed enabling it to connect to Wi-Fi using Wi-FiNINA with a secrets file Arduino_secrets.h, PubSubClient To publish and subscribe to specific topic channels
+
+<b>3.	Connectivity</b>
++	Payload: The readings from the sensor are processed by the microcontroller using multiple libraries including ScioSense_ENS160 and utility/wifi_drv. With RGB values linked to CO2 PPM thresholds and corresponding hexadecimal payload values, we can send MQTT messages over Wi-Fi.
++	WIFI Gateway: CE-Wi-Fi located in One Pool Street
++	Tilt Controller: Receives the MQTT payload via WIFI and selects which topic the Vespera luminaires is subscribed. The payload is then published to the coded topic e.g. #6 and sent to the MQTT Broker.
++	QTT Broker: (Mqtt.cetools.org) receives the published payload and if the credentials are correct, it will relay the message to the Vespera Luminare assigning the relevant LED configuration to reflect the CO2 observation.
+
+<b>4.	Vespera Light</b>
++	Physical: Is updated when dialled into the appropriate topic set by the Tilt Controller.
++	Virtual: (IoT.io/projects/lumi/) illustrates the equivalent display shown by the physical luminaire in CASA00014 classroom.
++	Function: 3 LEDs are lit each hour with the colour reflecting the CO2 levels (CO2 <450PPm = Green, CO2 451-750ppm = Orange, CO2 >751 = Red).
++	New observations are appended until all 72 LEDs are showing the past 24 observations (24hrs work of CO2 readings) after which the light is reset.
+
 
 
   # Component Breakdown
