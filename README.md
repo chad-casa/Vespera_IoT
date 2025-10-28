@@ -16,9 +16,9 @@
 -	Evaluation
 
 # Context – Vespera Zine
-Struggling to focus on class? You might not be the only one! Recognise poor ventilation instantly, with just a glance at Vespera.
+Struggling to focus in class? You might not be the only one! Recognise poor ventilation instantly, with just one glance at Vespera.
 
-Poor ventilation boosts CO2 concentration reducing the effectiveness of respiration. This means reduced focus, participation and information retention. 
+Poor ventilation boosts CO2 concentration and reduces the effectiveness of respiration. This means reduced focus, participation and information retention. 
 
 For an optimal study climate this winter, don’t sacrifice focus for warmth, know exactly when to ventilate the room with Vespera.
 
