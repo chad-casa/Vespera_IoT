@@ -101,7 +101,7 @@ Combined it should look like so:
 
 2. Can it connect to WI-FI? Use the [SimpleWifi tester](https://github.com/chad-casa/Vespera_IoT/blob/8b2bf5f1b79ee9ebf1dc66fb2b9969085085122d/Tests/SimpleWebServerWiFi-webled-mkr1010.ino) Arduino code to validate that the device can connect to the internet over WI-FI 
 
-3. Can it send MQTT messages?
+3. Can it send MQTT messages? Use the [MQTT Simple](https://github.com/ucl-casa-ce/casa0014/blob/cc7aed6253ad8d2e7b3fdea0c4e44cc227731e9e/vespera/workshop-sketch/mkr1010_mqtt_simple/mkr1010_mqtt_simple.ino) Sketch
 
 4. Does the CO2 sensor work? Use [ENS16x code](https://github.com/chad-casa/Vespera_IoT/blob/5368505f9161e4627b4a5e9a68e908a2f0ed466e/Tests/ens160basic_std.ino) to test the sensor takes CO2 readings
 <img width="959" height="562" alt="image" src="https://github.com/user-attachments/assets/1e0c6453-26c5-4c25-958d-ce4c45b5d6e4" />
