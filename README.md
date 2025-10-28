@@ -54,7 +54,7 @@ In the case of Project Vespera, we develop our own IoT system where:
 
 ## The Vespera IoT system
 <b>1.	Stimulus</b>
-•	CO2: The atmosphere contains CO2, its concentration is measured in parts per million
++ CO2: The atmosphere contains CO2, its concentration is measured in parts per million
 
 <b>2.	Data collection system (See Breadboard device below)</b>
 +	Sensor: CO2 sensor Adafruit ENS160 MOX (metal oxide) Gas Sensor Detects CO2 concentration in the atmosphere by measuring the change in current caused by the atmosphere making contact with the hot plate on the circuit, this is communicated to the Arduino by I2C (the SDA and SCL wires). By default readings are observed at intervals measured in milliseconds.
