@@ -2,18 +2,19 @@
 
 # Repository contents
 -	[Context – Vespera Zine](https://github.com/chad-casa/Vespera_IoT/blob/main/README.md#context--vespera-zine)
--	Introduction - Project Vespera
--	System Overview
--	How does it work?
-- Template view 
-- Component breakdown 
--	Does it work?
--	Test Scripts
--	Arduino Code
--	Final Code
--	Pictures
--	Road Map
+-	[Introduction - Project Vespera](https://github.com/chad-casa/Vespera_IoT/blob/main/README.md#introduction--project-vespera)
+-	[System Overview](https://github.com/chad-casa/Vespera_IoT/blob/main/README.md#system-overview)
+-	[How does it work?](https://github.com/chad-casa/Vespera_IoT/blob/main/README.md#how-does-it-work)
+- [Architecture](https://github.com/chad-casa/Vespera_IoT/blob/main/README.md#architecture)
+- [The Vespera IoT system](https://github.com/chad-casa/Vespera_IoT/blob/main/README.md#the-vespera-iot-system)
+- [Component breakdown ](https://github.com/chad-casa/Vespera_IoT/blob/main/README.md#component-breakdown)
+- [Assembly](https://github.com/chad-casa/Vespera_IoT/blob/main/README.md#assembly)
+-	[Test Scripts – Does it work?](https://github.com/chad-casa/Vespera_IoT/blob/main/README.md#test-scripts--does-it-work)
+-	[Arduino Code](https://github.com/chad-casa/Vespera_IoT/blob/main/README.md#arduino-code)
 -	Evaluation
+-	[Road Map](https://github.com/chad-casa/Vespera_IoT/blob/main/README.md#road-map)
+-	[Assumptions](https://github.com/chad-casa/Vespera_IoT/blob/main/README.md#assumptions)
+-	[Sources](https://github.com/chad-casa/Vespera_IoT/blob/main/README.md#sources)
 
 # Context – Vespera Zine
 Struggling to focus in class? You might not be the only one! Recognise poor ventilation instantly, with just one glance at Vespera.
@@ -114,7 +115,7 @@ Combined it should look like so:
 3.  New MQTT file found with new port (1884 instead of 1883)
 4.  Update topic to 6, Arduino_Secrets for relevant WI-FI, CO2ToColour ranges to be demo appropriate,SImplify colours used to Green, Orange and Red
 
-# Pictures
+# Evaluation
 
 # Road Map
 **Stages of development**
@@ -164,5 +165,5 @@ The sensor is working and is selecting RGB values based off of the PPM reading i
 + **Base code** - Arduino template libraries* [SPI, WIFININA, PubSubCLient,Arduino_secrets,Utility/wifi_drv,Wire,ScioSense_ENS160] 
 + **Base code** - Luminaire controller and MQTT Simple code by[Duncan Wilson](https://github.com/ucl-casa-ce/casa0014/blob/cc7aed6253ad8d2e7b3fdea0c4e44cc227731e9e/vespera/luminaire_mkr1010_controller/luminaire_mkr1010_controller.ino) (https://github.com/ucl-casa-ce/casa0014/tree/main/vespera)
 + **Wiring** - https://cdn-learn.adafruit.com/downloads/pdf/adafruit-ens160-mox-gas-sensor.pdf
-+ **How to merge sketches** - Claude.AI
-+ **CO2 reading to RGB** - Chad Barrett, Arduino Libraries* and Claude.AI
++ **How to merge sketches** - [Claude.AI](https://claude.ai/)
++ **CO2 reading to RGB** - Chad Barrett, Arduino Libraries* and [Claude.AI](https://claude.ai/)
