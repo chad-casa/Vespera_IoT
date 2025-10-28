@@ -110,7 +110,7 @@ Combined it should look like so:
 5. Are they received by Vespera Luminaire? Use [luminaire_mkr1010_controller](https://github.com/ucl-casa-ce/casa0014/blob/cc7aed6253ad8d2e7b3fdea0c4e44cc227731e9e/vespera/luminaire_mkr1010_controller/luminaire_mkr1010_controller.ino) sketch and observe the data flows in MQTT explorer and the virtual/physical Luminarie.
 
 # Arduino Code
-1.  Inital merge MQTT Simple, Luminaire and ENS160 sketches using Claude.ai
+1.  Initial merge MQTT Simple, Luminaire and ENS160 sketches using Claude.ai
 2.  System working locally without MQTT Publishing - legacy MQTT File used
 3.  New MQTT file found with new port (1884 instead of 1883)
 4.  To finalise the custom sketch I updated topic to 6, Arduino_Secrets for relevant WI-FI, CO2ToColour ranges to be demo appropriate, simplified colours used to Green, Orange and Red
@@ -119,7 +119,7 @@ Combined it should look like so:
 
 ## Road Map
 **Stages of development**
-1. Zine mindmapping my product thesis
+1. Zine mind mapping my product thesis
 2. Product component selection
 3. Product component assembly
 4. Functional testing of components using Arduino sketch examples (Blink, WIFININA AP_SimpleWebserver, ScioSense_ENS16X)
@@ -129,7 +129,7 @@ Combined it should look like so:
 8. Connect my device To MQTT gateway
 9. Link sensor readings in serial monitor to RGB LED changes
 10. Send RGB changes to Vespera online tool on topic 6 (my designated channel)
-11. Save historic readings on the vespera light to illustrate 1/hour - 3 Neopixel strips coloured represent 1 hour
+11. Save historic readings on the Vespera light to illustrate 1/hour - 3 Neopixel strips coloured represent 1 hour
     
 **Functional Demo Output**
 <img width="932" height="530" alt="image" src="https://github.com/user-attachments/assets/25f92f11-6e9c-4a97-bbd3-a7442d25e769" />
