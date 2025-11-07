@@ -167,7 +167,7 @@ The sensor is working and is selecting RGB values based off of the PPM reading i
 
 # Sources: 
 + **Base code** - Arduino template libraries* [SPI, WIFININA, PubSubCLient,Arduino_secrets,Utility/wifi_drv,Wire,ScioSense_ENS160] 
-+ **Base code** - Luminaire controller and MQTT Simple code by[Duncan Wilson](https://github.com/ucl-casa-ce/casa0014/blob/cc7aed6253ad8d2e7b3fdea0c4e44cc227731e9e/vespera/luminaire_mkr1010_controller/luminaire_mkr1010_controller.ino) (https://github.com/ucl-casa-ce/casa0014/tree/main/vespera)
++ **Base code** - Luminaire controller and MQTT Simple code by [Duncan Wilson](https://github.com/ucl-casa-ce/casa0014/blob/cc7aed6253ad8d2e7b3fdea0c4e44cc227731e9e/vespera/luminaire_mkr1010_controller/luminaire_mkr1010_controller.ino) (https://github.com/ucl-casa-ce/casa0014/tree/main/vespera)
 + **Wiring** - https://cdn-learn.adafruit.com/downloads/pdf/adafruit-ens160-mox-gas-sensor.pdf
 + **How to merge sketches** - [Claude.AI](https://claude.ai/)
 + **CO2 reading to RGB** - Chad Barrett, Arduino Libraries* and [Claude.AI](https://claude.ai/)
