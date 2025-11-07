@@ -155,7 +155,7 @@ Low latency is not necessary due to the low frequency of sensing required. Large
 Data transferred is not highly sensitivity so weak security or no default encryption is not a concern.
 
 ## Areas of Improvement
-The sensor is working and is selecting RGB values based off of the PPM reading in the serial output. The current bounds were 600 - 1000 - 1500 ppm this seems fairly high as the current average is ~400. Readings have been tweaked to run every 10 seconds to prevent spam. In practice readings should be hourly.
+The sensor is working and is selecting RGB values based off of the PPM reading in the serial output. The current bounds were 600 - 1000 - 1500 ppm this seems fairly high as the current average is ~400. I then implemented a traffic light system: green (good ventilation, <450 PPM), orange (consider ventilating, 451-750 PPM), red (ventilate now, >751 PPM). Readings have been tweaked to run every 10 seconds to prevent spam and only register when changes are over 50ppm. In practice readings should be hourly.
 <img width="954" height="561" alt="image" src="https://github.com/user-attachments/assets/b6771a0a-9750-4189-b10c-3c15db77a52c" />
 
 “Don’t assume your measurements are valid” – Duncan Wilson
